@@ -16,7 +16,7 @@
 
 ## Credits
 
-Thanks to [The Odin Project] (https://www.theodinproject.com/) for providing an excellent curriculum and learning platform.
+Thanks to [The Odin Project](https://www.theodinproject.com/) for providing an excellent curriculum and learning platform.
 
 ## License
 
