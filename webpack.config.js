@@ -33,6 +33,10 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
         type: "asset/resource",
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i, // Match font file extensions
+        type: "asset/resource", // Handles font files as separate assets
+      },
     ],
   },
 };

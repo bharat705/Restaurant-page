@@ -1,4 +1,7 @@
-/* styles.css */
+/* load custom fonts */
+@import "./fonts.css";
+
+/* ./src/styles.css */
 body {
   background-image: url("./image/homepage-background.jpg");
   background-size: 100vw auto;
@@ -34,6 +37,6 @@ body {
   cursor: pointer;
 }
 
-.action img{
+.action img {
   width: 40px;
 }
