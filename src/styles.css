@@ -1,4 +1,39 @@
 /* styles.css */
 body {
-  background-color: rebeccapurple;
+  background-image: url("./image/homepage-background.jpg");
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+}
+
+.header {
+  padding: 20px 80px;
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  font-weight: bold;
+  border: none;
+
+  cursor: pointer;
+}
+
+.action img{
+  width: 40px;
 }
