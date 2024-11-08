@@ -24,13 +24,6 @@ const loadHomePage = () => {
   // Prepare Content Section
   const content = document.getElementById("content");
   content.innerHTML = "";
-
-  // const bgImgEle = document.createElement("img");
-  // bgImgEle.src = homePageBgImage;
-  // bgImgEle.alt = "A cozy view of the restaurant";
-  // bgImgEle.classList.add("background-image");
-
-  // content.appendChild(bgImgEle);
 };
 
 export default loadHomePage;
