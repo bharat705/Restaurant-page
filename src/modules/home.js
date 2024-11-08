@@ -5,6 +5,12 @@ const loadHomePage = () => {
   const heroContent = document.getElementById("hero-content");
   heroContent.innerHTML = "";
 
+  // Dynamically load styles.css
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href = "../styles.css";
+  document.head.appendChild(link);
+
   const heroH1 = document.createElement("h1");
   const heroH2 = document.createElement("h2");
   const heroP = document.createElement("p");

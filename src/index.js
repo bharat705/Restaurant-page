@@ -1,6 +1,6 @@
 import "./reset.css";
-import "./styles.css";
 import "./about.css";
+import "./styles.css";
 
 import loadHomePage from "./modules/home";
 import loadAboutPage from "./modules/about";
