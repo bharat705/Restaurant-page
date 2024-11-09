@@ -12,9 +12,7 @@ const loadAllSections = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   // Load all sections on DOMContentLoaded
-  document.addEventListener("DOMContentLoaded", () => {
-    loadAllSections();
-  });
+  loadAllSections();
   // Smooth scrolling for navigation buttons
 
   document.getElementById("home-btn").addEventListener("click", () => {
@@ -55,5 +53,17 @@ document.addEventListener("DOMContentLoaded", () => {
     document
       .getElementById("contact-section")
       .scrollIntoView({ behavior: "smooth" });
+  });
+
+  const header = document.getElementById("header");
+  console.log(header);
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      // Adjust this value to change when the header background appears
+      header.classList.add("header-scrolled");
+    } else {
+      header.classList.remove("header-scrolled");
+    }
   });
 });
