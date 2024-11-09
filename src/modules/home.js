@@ -1,35 +1,16 @@
-import homePageBgImage from "../image/homepage-background.jpg";
-
 const loadHomePage = () => {
-  // Prepare hero content section
-  const heroContent = document.getElementById("hero-content");
-  heroContent.innerHTML = "";
+  const homeSection = document.getElementById("home-section");
+  homeSection.innerHTML = ""; // Clear any existing content
 
-  // Dynamically load styles.css
-  const link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.href = "../styles.css";
-  document.head.appendChild(link);
-
-  const heroH1 = document.createElement("h1");
-  const heroH2 = document.createElement("h2");
-  const heroP = document.createElement("p");
-  const heroOrderBtn = document.createElement("button");
-
-  heroH1.textContent = "ROYAL KITCHEN";
-  heroH2.textContent = "Experience the Taste of Royalty";
-  heroP.textContent =
-    "At Royal Kitchen, we believe dining is more than just a meal—it’s an experience crafted with passion and precision. From the finest ingredients to exquisite presentation, every dish is a celebration of elegance and flavor. Join us for a journey that blends traditional culinary artistry with a touch of modern sophistication. Your royal feast awaits.";
-  heroOrderBtn.textContent = "Order Now";
-
-  heroContent.appendChild(heroH1);
-  heroContent.appendChild(heroH2);
-  heroContent.appendChild(heroP);
-  heroContent.appendChild(heroOrderBtn);
-
-  // Prepare Content Section
-  const content = document.getElementById("content");
-  content.innerHTML = "";
+  // Home Section Content
+  homeSection.innerHTML = `
+    <div class="hero-content">
+      <h1>ROYAL KITCHEN</h1>
+      <h2>Experience the Taste of Royalty</h2>
+      <p>At Royal Kitchen, we believe dining is more than just a meal—it’s an experience crafted with passion and precision. From the finest ingredients to exquisite presentation, every dish is a celebration of elegance and flavor. Join us for a journey that blends traditional culinary artistry with a touch of modern sophistication. Your royal feast awaits.</p>
+      <button>Order Now</button>
+    </div>
+  `;
 };
 
 export default loadHomePage;

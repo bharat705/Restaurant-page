@@ -1,19 +1,19 @@
-#content.about-page {
+#about-section {
   padding: 20px;
   max-width: 900px;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
 }
 
-#content.about-page .section-heading h1 {
-  font-size: 2.4rem;
+.section-heading h1 {
+  font-size: 2.5rem;
   color: #5e310e;
   text-align: center;
   margin-bottom: 20px;
   font-family: "Playfair Display", serif;
 }
 
-#content.about-page .welcome-section {
+.welcome-section {
   background-color: #faf3e0;
   border-left: 5px solid #c2a671;
   padding: 20px;
@@ -22,14 +22,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#content.about-page .welcome-section h3 {
+.welcome-section h3 {
   font-size: 1.8em;
   color: #c2a671;
   font-family: "Playfair Display", serif;
   margin-bottom: 15px;
 }
 
-#content.about-page .welcome-section p {
+.welcome-section p {
   font-size: 1.1em;
   line-height: 1.7;
   color: #333333;
@@ -37,7 +37,7 @@
   text-align: justify;
 }
 
-#content.about-page h2 {
+#about-section h2 {
   font-size: 1.8rem;
   color: #5e310e;
   margin-top: 30px;
@@ -45,33 +45,33 @@
   font-family: "Playfair Display", serif;
 }
 
-#content.about-page h3 {
+#about-section h3 {
   font-size: 1.5rem;
   color: #7c5a35;
   margin-bottom: 10px;
   font-family: "Playfair Display", serif;
 }
 
-#content.about-page h2,
-#content.about-page h3 {
+#about-section h2,
+#about-section h3 {
   text-align: center;
 }
 
-#content.about-page p {
+#about-section p {
   font-size: 1em;
   color: #333333;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
-#content.about-page .features-grid {
+.features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
 
-#content.about-page .features-grid div {
+.features-grid div {
   background-color: #faf3e0;
   padding: 15px;
   border-radius: 8px;
@@ -79,24 +79,24 @@
   transition: transform 0.3s ease;
 }
 
-#content.about-page .features-grid div:hover {
+.features-grid div:hover {
   transform: translateY(-5px);
 }
 
-#content.about-page .features-grid h3 {
+.features-grid h3 {
   font-size: 1.3em;
   color: #7c5a35;
   margin-bottom: 10px;
   font-family: "Playfair Display", serif;
 }
 
-#content.about-page .features-grid p {
+.features-grid p {
   font-size: 0.95em;
   color: #333333;
   line-height: 1.5;
 }
 
-#content.about-page .features-grid h3::after {
+.features-grid h3::after {
   content: "";
   display: block;
   width: 40%;
@@ -105,7 +105,7 @@
   margin: 8px auto;
 }
 
-#content.about-page .invite-section {
+.invite-section {
   background: linear-gradient(145deg, #faf3e0, #f5e8d3);
   padding: 25px;
   border-radius: 8px;
@@ -114,14 +114,14 @@
   margin-top: 40px;
 }
 
-#content.about-page .invite-section h2 {
+.invite-section h2 {
   font-size: 1.9em;
   color: #5e310e;
   font-family: "Playfair Display", serif;
   margin-bottom: 10px;
 }
 
-#content.about-page .invite-section p {
+.invite-section p {
   font-size: 1.2em;
   color: #333333;
   line-height: 1.7;
