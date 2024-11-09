@@ -1,13 +1,16 @@
 import "./reset.css";
 import "./styles.css";
 import "./about.css";
+import "./menu.css";
 
 import loadHomePage from "./modules/home";
 import loadAboutPage from "./modules/about";
+import loadMenuPage from "./modules/menu";
 
 const loadAllSections = () => {
   loadHomePage();
   loadAboutPage();
+  loadMenuPage();
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -30,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("menu-btn").addEventListener("click", () => {
+    loadMenuPage();
     document
       .getElementById("menu-section")
       .scrollIntoView({ behavior: "smooth" });

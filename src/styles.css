@@ -22,7 +22,7 @@ body {
   width: 100%;
   padding: 10px 50px;
   transition: background-color 0.3s ease, padding 0.3s ease;
-  background-color: rgba(205, 128, 45, 0.50);
+  background-color: rgba(205, 128, 45, 0.5);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,9 +32,6 @@ body {
 /* Scrolled header with background */
 #header.header-scrolled {
   position: relative;
-  /* background-color: rgba(205, 128, 45, 0.90);
-  padding: 0 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
 }
 
 #header-logo img {
