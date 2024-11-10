@@ -2,15 +2,18 @@ import "./reset.css";
 import "./styles.css";
 import "./about.css";
 import "./menu.css";
+import "./reservations.css";
 
 import loadHomePage from "./modules/home";
 import loadAboutPage from "./modules/about";
 import loadMenuPage from "./modules/menu";
+import loadReservationsPage from "./modules/reservations";
 
 const loadAllSections = () => {
   loadHomePage();
   loadAboutPage();
   loadMenuPage();
+  loadReservationsPage();
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -39,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .scrollIntoView({ behavior: "smooth" });
   });
   document.getElementById("reservations-btn").addEventListener("click", () => {
+    loadReservationsPage();
     document
       .getElementById("reservations-section")
       .scrollIntoView({ behavior: "smooth" });

@@ -1,0 +1,100 @@
+/* Section background */
+#reservations-section {
+  background: linear-gradient(135deg, #faf3e0, #f5e8d3);
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Form container styling */
+.reservation-form-container {
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Title styling */
+.reservation-title {
+  font-size: 2.2rem;
+  color: #5e310e;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Form field styling */
+.reservation-form label {
+  display: block;
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.reservation-form input:focus,
+.reservation-form select:focus,
+.reservation-form textarea:focus {
+  border-color: #c2a671;
+  outline: none;
+}
+
+/* Textarea styling */
+.reservation-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Feedback message styling */
+.form-feedback {
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Submit button styling */
+.reservation-submit {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #c2a671;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-submit:hover {
+  background-color: #5e310e;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
