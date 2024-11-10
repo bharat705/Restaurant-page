@@ -21,6 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
   loadAllSections();
   // Smooth scrolling for navigation buttons
 
+  document.getElementById("header-logo").addEventListener("click", () => {
+    loadHomePage();
+    document
+      .getElementById("home-section")
+      .scrollIntoView({ behavior: "smooth" });
+  });
+
   document.getElementById("home-btn").addEventListener("click", () => {
     loadHomePage();
     document

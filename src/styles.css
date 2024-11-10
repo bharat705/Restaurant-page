@@ -31,7 +31,10 @@ body {
 
 /* Scrolled header with background */
 #header.header-scrolled {
-  position: relative;
+    background-color: rgba(205, 128, 45, 1);
+  #header-logo img {
+    width: 50px;
+  }
 }
 
 #header-logo img {
