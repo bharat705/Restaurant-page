@@ -78,6 +78,11 @@ const loadMenuPage = () => {
   const menuSection = document.getElementById("menu-section");
   menuSection.innerHTML = ""; // Clear any existing content
 
+  // Create a heading for the menu section
+  const heading = document.createElement("h2");
+  heading.classList.add("menu-heading");
+  heading.textContent = "Menu";
+
   // Create a container for the menu items grid
   const gridContainer = document.createElement("div");
   gridContainer.classList.add("menu-grid");
@@ -98,6 +103,8 @@ const loadMenuPage = () => {
     gridContainer.appendChild(card);
   });
 
+
+  menuSection.appendChild(heading)
   menuSection.appendChild(gridContainer);
 };
 
