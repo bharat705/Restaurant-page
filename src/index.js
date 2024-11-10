@@ -3,17 +3,20 @@ import "./styles.css";
 import "./about.css";
 import "./menu.css";
 import "./reservations.css";
+import "./gallery.css";
 
 import loadHomePage from "./modules/home";
 import loadAboutPage from "./modules/about";
 import loadMenuPage from "./modules/menu";
 import loadReservationsPage from "./modules/reservations";
+import loadGalleryPage from "./modules/gallery";
 
 const loadAllSections = () => {
   loadHomePage();
   loadAboutPage();
   loadMenuPage();
   loadReservationsPage();
+  loadGalleryPage();
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -55,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .scrollIntoView({ behavior: "smooth" });
   });
   document.getElementById("gallery-btn").addEventListener("click", () => {
+    loadGalleryPage();
     document
       .getElementById("gallery-section")
       .scrollIntoView({ behavior: "smooth" });
