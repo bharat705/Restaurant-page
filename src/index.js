@@ -4,12 +4,14 @@ import "./about.css";
 import "./menu.css";
 import "./reservations.css";
 import "./gallery.css";
+import "./blog.css";
 
 import loadHomePage from "./modules/home";
 import loadAboutPage from "./modules/about";
 import loadMenuPage from "./modules/menu";
 import loadReservationsPage from "./modules/reservations";
 import loadGalleryPage from "./modules/gallery";
+import loadBlogPage from "./modules/blog";
 
 const loadAllSections = () => {
   loadHomePage();
@@ -17,6 +19,7 @@ const loadAllSections = () => {
   loadMenuPage();
   loadReservationsPage();
   loadGalleryPage();
+  loadBlogPage();
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -64,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .scrollIntoView({ behavior: "smooth" });
   });
   document.getElementById("blog-btn").addEventListener("click", () => {
+    loadBlogPage();
     document
       .getElementById("blog-section")
       .scrollIntoView({ behavior: "smooth" });
