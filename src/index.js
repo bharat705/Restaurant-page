@@ -5,6 +5,7 @@ import "./menu.css";
 import "./reservations.css";
 import "./gallery.css";
 import "./blog.css";
+import "./contact.css";
 
 import loadHomePage from "./modules/home";
 import loadAboutPage from "./modules/about";
@@ -12,6 +13,7 @@ import loadMenuPage from "./modules/menu";
 import loadReservationsPage from "./modules/reservations";
 import loadGalleryPage from "./modules/gallery";
 import loadBlogPage from "./modules/blog";
+import loadContactPage from "./modules/contact";
 
 const loadAllSections = () => {
   loadHomePage();
@@ -20,6 +22,7 @@ const loadAllSections = () => {
   loadReservationsPage();
   loadGalleryPage();
   loadBlogPage();
+  loadContactPage();
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -73,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .scrollIntoView({ behavior: "smooth" });
   });
   document.getElementById("contact-btn").addEventListener("click", () => {
+    loadContactPage();
     document
       .getElementById("contact-section")
       .scrollIntoView({ behavior: "smooth" });

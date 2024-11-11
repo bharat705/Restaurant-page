@@ -1,0 +1,85 @@
+/* Footer Section Styling with Subtle, Light Background */
+#contact-section {
+  background-color: #faf3e0; /* Soft, cohesive background */
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  color: #5e310e;
+}
+
+/* Container for Footer Columns */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+}
+
+/* Footer Column Styling */
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+}
+
+/* Footer Headings with Elegant Font */
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #b35a27;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+/* Footer Links */
+.footer-column p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+  color: #7d7062;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #7d7062;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #b35a27; /* Accent color on hover */
+}
+
+/* Social Media Section */
+.social-heading {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #b35a27;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  color: #5e310e;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #b35a27; /* Accent color on hover */
+  transform: scale(1.1); /* Slight scale effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-column {
+    margin-bottom: 20px;
+  }
+}
