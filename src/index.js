@@ -1,11 +1,11 @@
-import "./reset.css";
-import "./styles.css";
-import "./about.css";
-import "./menu.css";
-import "./reservations.css";
-import "./gallery.css";
-import "./blog.css";
-import "./contact.css";
+import "./styles/reset.css";
+import "./styles/styles.css";
+import "./styles/about.css";
+import "./styles/menu.css";
+import "./styles/reservations.css";
+import "./styles/gallery.css";
+import "./styles/blog.css";
+import "./styles/contact.css";
 
 import loadHomePage from "./modules/home";
 import loadAboutPage from "./modules/about";
