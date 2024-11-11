@@ -1,13 +1,11 @@
-/* Footer Section Styling with Subtle, Light Background */
 #contact-section {
-  background-color: #faf3e0; /* Soft, cohesive background */
+  background-color: #faf3e0;
   padding: 50px 20px;
   display: flex;
   justify-content: center;
   color: #5e310e;
 }
 
-/* Container for Footer Columns */
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -16,13 +14,11 @@
   gap: 40px;
 }
 
-/* Footer Column Styling */
 .footer-column {
   flex: 1;
   min-width: 150px;
 }
 
-/* Footer Headings with Elegant Font */
 .footer-heading {
   font-size: 1.2rem;
   font-weight: bold;
@@ -31,7 +27,6 @@
   font-family: "Playfair Display", serif;
 }
 
-/* Footer Links */
 .footer-column p {
   font-size: 0.95rem;
   margin: 5px 0;
@@ -45,10 +40,9 @@
 }
 
 .footer-column a:hover {
-  color: #b35a27; /* Accent color on hover */
+  color: #b35a27;
 }
 
-/* Social Media Section */
 .social-heading {
   margin-top: 20px;
   font-weight: bold;
@@ -68,11 +62,10 @@
 }
 
 .social-icon:hover {
-  color: #b35a27; /* Accent color on hover */
-  transform: scale(1.1); /* Slight scale effect on hover */
+  color: #b35a27;
+  transform: scale(1.1);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;

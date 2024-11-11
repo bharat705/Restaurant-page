@@ -19,9 +19,9 @@ const loadContactPage = () => {
       <div class="footer-column">
         <h3 class="footer-heading">Explore</h3>
         <p><a href="#">Home</a></p>
-        <p><a href="#">Our Story</a></p>
-        <p><a href="#">Menu</a></p>
-        <p><a href="#">Reservations</a></p>
+        <p><a href="#about-section">Our Story</a></p>
+        <p><a href="#menu-section">Menu</a></p>
+        <p><a href="#reservations-section">Reservations</a></p>
       </div>
       <div class="footer-column">
         <h3 class="footer-heading">Experience</h3>

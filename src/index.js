@@ -14,8 +14,10 @@ import loadReservationsPage from "./modules/reservations";
 import loadGalleryPage from "./modules/gallery";
 import loadBlogPage from "./modules/blog";
 import loadContactPage from "./modules/contact";
+import { initHeaderIndicator } from "./modules/header";
 
 const loadAllSections = () => {
+  initHeaderIndicator();
   loadHomePage();
   loadAboutPage();
   loadMenuPage();
@@ -28,8 +30,8 @@ const loadAllSections = () => {
 document.addEventListener("DOMContentLoaded", () => {
   // Load all sections on DOMContentLoaded
   loadAllSections();
-  // Smooth scrolling for navigation buttons
 
+  // Smooth scrolling for navigation buttons
   document.getElementById("header-logo").addEventListener("click", () => {
     loadHomePage();
     document

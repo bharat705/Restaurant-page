@@ -63,6 +63,10 @@ body {
   transition: transform 0.3s ease;
 }
 
+.nav-btn.active {
+  color: #d4250ed5;
+}
+
 .nav-btn:hover {
   transform: scale(1.1);
 }
